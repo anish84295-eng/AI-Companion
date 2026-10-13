@@ -2,6 +2,14 @@
 
 A floating animated AI companion for your desktop that monitors your screen, detects programming errors, and provides real-time explanations and fixes.
 
+## Demo
+
+![Dashboard](screenshots/dashboard.png)
+
+![Chat - AI Error Explanation](screenshots/chat_demo.png)
+
+![Settings](screenshots/settings.png)
+
 ## Features
 
 - **Floating Cat Companion**: Animated cat sits on top of your screen, draggable, with idle/analyzing/thinking/alert states
@@ -39,8 +47,7 @@ Copy `.env.example` to `.env` and paste your key:
 
 ```
 OPENROUTER_API_KEY=sk-or-v1-your-key-here
-OPENROUTER_MODEL=anthropic/claude-3-haiku
-```
+OPENROUTER_MODEL=openrouter/free```
 
 The defaults work well:
 - **Chat model**: `anthropic/claude-3-haiku` (fast, cheap, smart)
