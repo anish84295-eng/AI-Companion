@@ -10,7 +10,7 @@ A floating animated AI companion for your desktop that monitors your screen, det
 
 ![Settings](screenshots/settings.png)
 
-## Features
+![Error Detected](screenshots/error_detected.png)## Features
 
 - **Floating Cat Companion**: Animated cat sits on top of your screen, draggable, with idle/analyzing/thinking/alert states
 - **Screen Monitoring**: Periodically captures screen, skips unchanged frames via perceptual hash, runs OCR
